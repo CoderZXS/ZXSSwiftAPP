@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,10 @@
 		03BD4A6A24E620F100D375F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BD4A6824E620F100D375F1 /* Main.storyboard */; };
 		03BD4A6C24E6210800D375F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BD4A6B24E6210800D375F1 /* Assets.xcassets */; };
 		03BD4A6F24E6210800D375F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BD4A6D24E6210800D375F1 /* LaunchScreen.storyboard */; };
-		03BD4A8824E627EC00D375F1 /* ZXSConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD4A8724E627EC00D375F1 /* ZXSConst.swift */; };
+		03BD4A8824E627EC00D375F1 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD4A8724E627EC00D375F1 /* Const.swift */; };
+		03BD4A8C24E6755400D375F1 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD4A8B24E6755400D375F1 /* HttpManager.swift */; };
+		03BD4A8E24E683DA00D375F1 /* ZXSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD4A8D24E683DA00D375F1 /* ZXSTabBarController.swift */; };
+		87C19482136E716AC8AB688F /* Pods_ZXSSwiftAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85A2CD29AF7804D0AEF88FF /* Pods_ZXSSwiftAPP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +28,12 @@
 		03BD4A6B24E6210800D375F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03BD4A6E24E6210800D375F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03BD4A7024E6210800D375F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03BD4A8724E627EC00D375F1 /* ZXSConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXSConst.swift; sourceTree = "<group>"; };
+		03BD4A8724E627EC00D375F1 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		03BD4A8B24E6755400D375F1 /* HttpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
+		03BD4A8D24E683DA00D375F1 /* ZXSTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXSTabBarController.swift; sourceTree = "<group>"; };
+		4DEBAC20AD13EB4F56E4335A /* Pods-ZXSSwiftAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXSSwiftAPP.release.xcconfig"; path = "Target Support Files/Pods-ZXSSwiftAPP/Pods-ZXSSwiftAPP.release.xcconfig"; sourceTree = "<group>"; };
+		C85A2CD29AF7804D0AEF88FF /* Pods_ZXSSwiftAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXSSwiftAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A0B88261543BC4D89C7232 /* Pods-ZXSSwiftAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXSSwiftAPP.debug.xcconfig"; path = "Target Support Files/Pods-ZXSSwiftAPP/Pods-ZXSSwiftAPP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C19482136E716AC8AB688F /* Pods_ZXSSwiftAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,8 @@
 			children = (
 				03BD4A6124E620F000D375F1 /* ZXSSwiftAPP */,
 				03BD4A6024E620F000D375F1 /* Products */,
+				65C1D38B51AE4F83FCEF66B5 /* Pods */,
+				CF82E4514A482697E4C613B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,7 +100,7 @@
 		03BD4A7724E627C200D375F1 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				03BD4A8724E627EC00D375F1 /* ZXSConst.swift */,
+				03BD4A8724E627EC00D375F1 /* Const.swift */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -104,6 +115,7 @@
 		03BD4A7924E627C200D375F1 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				03BD4A8B24E6755400D375F1 /* HttpManager.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 		03BD4A7C24E627C200D375F1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				03BD4A8D24E683DA00D375F1 /* ZXSTabBarController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -206,6 +219,23 @@
 			path = Voice;
 			sourceTree = "<group>";
 		};
+		65C1D38B51AE4F83FCEF66B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0B88261543BC4D89C7232 /* Pods-ZXSSwiftAPP.debug.xcconfig */,
+				4DEBAC20AD13EB4F56E4335A /* Pods-ZXSSwiftAPP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF82E4514A482697E4C613B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C85A2CD29AF7804D0AEF88FF /* Pods_ZXSSwiftAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03BD4A7324E6210800D375F1 /* Build configuration list for PBXNativeTarget "ZXSSwiftAPP" */;
 			buildPhases = (
+				88742CAB7B94F2EFD119A4F5 /* [CP] Check Pods Manifest.lock */,
 				03BD4A5B24E620F000D375F1 /* Sources */,
 				03BD4A5C24E620F000D375F1 /* Frameworks */,
 				03BD4A5D24E620F000D375F1 /* Resources */,
+				01C13F25F902F32E94AB2E30 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,13 +304,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01C13F25F902F32E94AB2E30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZXSSwiftAPP/Pods-ZXSSwiftAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZXSSwiftAPP/Pods-ZXSSwiftAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZXSSwiftAPP/Pods-ZXSSwiftAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88742CAB7B94F2EFD119A4F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZXSSwiftAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03BD4A5B24E620F000D375F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				03BD4A6724E620F100D375F1 /* ViewController.swift in Sources */,
-				03BD4A8824E627EC00D375F1 /* ZXSConst.swift in Sources */,
+				03BD4A8C24E6755400D375F1 /* HttpManager.swift in Sources */,
+				03BD4A8824E627EC00D375F1 /* Const.swift in Sources */,
+				03BD4A8E24E683DA00D375F1 /* ZXSTabBarController.swift in Sources */,
 				03BD4A6324E620F100D375F1 /* AppDelegate.swift in Sources */,
 				03BD4A6524E620F100D375F1 /* SceneDelegate.swift in Sources */,
 			);
@@ -422,11 +498,13 @@
 		};
 		03BD4A7424E6210800D375F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A0B88261543BC4D89C7232 /* Pods-ZXSSwiftAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FWBJGP479P;
 				INFOPLIST_FILE = ZXSSwiftAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,11 +518,13 @@
 		};
 		03BD4A7524E6210800D375F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEBAC20AD13EB4F56E4335A /* Pods-ZXSSwiftAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FWBJGP479P;
 				INFOPLIST_FILE = ZXSSwiftAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

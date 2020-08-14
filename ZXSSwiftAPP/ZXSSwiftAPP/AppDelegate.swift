@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ZXSSwiftAPP
+//  文件负责App的启动与终止，并负责与SceneDelegate交接。
 //
 //  Created by enesoon on 2020/8/14.
 //  Copyright © 2020 enesoon. All rights reserved.

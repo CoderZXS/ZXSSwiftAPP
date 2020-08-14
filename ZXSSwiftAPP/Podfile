@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+inhibit_all_warnings!# 忽略引入库的所有警告
+use_frameworks!
+
+target 'ZXSSwiftAPP' do
+  pod 'Alamofire' #网络请求
+  pod 'SwiftyJSON' #json解析
+  
+end

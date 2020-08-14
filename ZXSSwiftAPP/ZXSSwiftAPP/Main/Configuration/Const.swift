@@ -1,6 +1,6 @@
 //
-//  ZXSConst.swift
-//  ZXSSwiftAPP
+//  Const.swift
+//  SwiftAPP
 //
 //  Created by enesoon on 2020/8/14.
 //  Copyright © 2020 enesoon. All rights reserved.
@@ -31,12 +31,12 @@ let kTabBarH = CGFloat(kIsiPhoneX ? 83 : 49)
 
 
 //自定义颜色
-func ZXSRGBColor(red:CGFloat, green:CGFloat, blue:CGFloat) -> UIColor {
+func RGBColor(red:CGFloat, green:CGFloat, blue:CGFloat) -> UIColor {
     return UIColor.init(red: (red / 255.0), green: (green / 255.0), blue: (blue / 255.0), alpha: 1.0)
 }
 
 //字号
-func ZXSCustomFont(font:CGFloat) -> UIFont {
+func CustomFont(font:CGFloat) -> UIFont {
     //刘海屏
     guard kScreenH <= 736.0 else {
         return UIFont.systemFont(ofSize: font)

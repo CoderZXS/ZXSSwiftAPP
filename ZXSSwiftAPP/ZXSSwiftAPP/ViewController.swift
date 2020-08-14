@@ -7,14 +7,18 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let URLString = "http://test.huizustore.com:9000/consumer-app/aliPay/orderComplaints/orderComplaintsGetById?id=10"
+        HttpManager.shareHttpManager.requestNetworkData(type: .get, URLString: URLString, paramater: nil) { (response) in
+            let jsonData = JSON(response)
+            print("jsonData = \(jsonData)")
+        }
     }
-
-
 }
 
