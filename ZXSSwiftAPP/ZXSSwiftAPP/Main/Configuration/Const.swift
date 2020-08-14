@@ -56,6 +56,27 @@ func CustomFont(font:CGFloat) -> UIFont {
     return UIFont.systemFont(ofSize: font)
 }
 
+//圆角
+func CustomLayerCoreRadius(num : CGFloat) -> CGFloat {
+    //刘海屏
+    guard kScreenH <= 736.0 else {
+        return num * 1.3
+    }
+    
+    //5.5
+    guard kScreenH == 736.0 else {
+        return num * 1.1
+    }
+    
+    //4.7
+    guard kScreenH >= 736.0 else {
+        return num
+    }
+    
+    //其他
+    return num * 1.2
+}
+
 
 
 
