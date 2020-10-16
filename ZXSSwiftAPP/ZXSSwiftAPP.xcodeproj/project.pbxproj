@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A3BAFC25399BF3000E87D0 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A3BAB725399BF3000E87D0 /* Const.swift */; };
+		03A3BAFD25399BF3000E87D0 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A3BABA25399BF3000E87D0 /* HttpManager.swift */; };
+		03A3BAFE25399BF3000E87D0 /* ZXSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A3BABE25399BF3000E87D0 /* ZXSTabBarController.swift */; };
 		03BD4A6324E620F100D375F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD4A6224E620F100D375F1 /* AppDelegate.swift */; };
 		03BD4A6524E620F100D375F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD4A6424E620F100D375F1 /* SceneDelegate.swift */; };
 		03BD4A6724E620F100D375F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD4A6624E620F100D375F1 /* ViewController.swift */; };
 		03BD4A6A24E620F100D375F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BD4A6824E620F100D375F1 /* Main.storyboard */; };
 		03BD4A6C24E6210800D375F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BD4A6B24E6210800D375F1 /* Assets.xcassets */; };
 		03BD4A6F24E6210800D375F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BD4A6D24E6210800D375F1 /* LaunchScreen.storyboard */; };
-		03BD4A8824E627EC00D375F1 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD4A8724E627EC00D375F1 /* Const.swift */; };
-		03BD4A8C24E6755400D375F1 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD4A8B24E6755400D375F1 /* HttpManager.swift */; };
-		03BD4A8E24E683DA00D375F1 /* ZXSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD4A8D24E683DA00D375F1 /* ZXSTabBarController.swift */; };
 		87C19482136E716AC8AB688F /* Pods_ZXSSwiftAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85A2CD29AF7804D0AEF88FF /* Pods_ZXSSwiftAPP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03A3BAB725399BF3000E87D0 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		03A3BABA25399BF3000E87D0 /* HttpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
+		03A3BABE25399BF3000E87D0 /* ZXSTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXSTabBarController.swift; sourceTree = "<group>"; };
 		03BD4A5F24E620F000D375F1 /* ZXSSwiftAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXSSwiftAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BD4A6224E620F100D375F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03BD4A6424E620F100D375F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,9 +31,6 @@
 		03BD4A6B24E6210800D375F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03BD4A6E24E6210800D375F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03BD4A7024E6210800D375F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03BD4A8724E627EC00D375F1 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
-		03BD4A8B24E6755400D375F1 /* HttpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
-		03BD4A8D24E683DA00D375F1 /* ZXSTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXSTabBarController.swift; sourceTree = "<group>"; };
 		4DEBAC20AD13EB4F56E4335A /* Pods-ZXSSwiftAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXSSwiftAPP.release.xcconfig"; path = "Target Support Files/Pods-ZXSSwiftAPP/Pods-ZXSSwiftAPP.release.xcconfig"; sourceTree = "<group>"; };
 		C85A2CD29AF7804D0AEF88FF /* Pods_ZXSSwiftAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXSSwiftAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A0B88261543BC4D89C7232 /* Pods-ZXSSwiftAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXSSwiftAPP.debug.xcconfig"; path = "Target Support Files/Pods-ZXSSwiftAPP/Pods-ZXSSwiftAPP.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +48,560 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03A3BAB425399BF3000E87D0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BAB525399BF3000E87D0 /* Main */,
+				03A3BAC925399BF3000E87D0 /* 4 */,
+				03A3BADA25399BF3000E87D0 /* 3 */,
+				03A3BAEB25399BF3000E87D0 /* 2 */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		03A3BAB525399BF3000E87D0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BAB625399BF3000E87D0 /* Configuration */,
+				03A3BAB825399BF3000E87D0 /* Category */,
+				03A3BAB925399BF3000E87D0 /* Util */,
+				03A3BABB25399BF3000E87D0 /* Other */,
+				03A3BABC25399BF3000E87D0 /* Library */,
+				03A3BABD25399BF3000E87D0 /* Controller */,
+				03A3BABF25399BF3000E87D0 /* Model */,
+				03A3BAC225399BF3000E87D0 /* View */,
+				03A3BAC325399BF3000E87D0 /* Resource */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		03A3BAB625399BF3000E87D0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BAB725399BF3000E87D0 /* Const.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		03A3BAB825399BF3000E87D0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		03A3BAB925399BF3000E87D0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BABA25399BF3000E87D0 /* HttpManager.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		03A3BABB25399BF3000E87D0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		03A3BABC25399BF3000E87D0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		03A3BABD25399BF3000E87D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BABE25399BF3000E87D0 /* ZXSTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03A3BABF25399BF3000E87D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BAC025399BF3000E87D0 /* ViewModel */,
+				03A3BAC125399BF3000E87D0 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03A3BAC025399BF3000E87D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		03A3BAC125399BF3000E87D0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		03A3BAC225399BF3000E87D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03A3BAC325399BF3000E87D0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BAC425399BF3000E87D0 /* Plist */,
+				03A3BAC525399BF3000E87D0 /* Video */,
+				03A3BAC625399BF3000E87D0 /* File */,
+				03A3BAC725399BF3000E87D0 /* Image */,
+				03A3BAC825399BF3000E87D0 /* Voice */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		03A3BAC425399BF3000E87D0 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		03A3BAC525399BF3000E87D0 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		03A3BAC625399BF3000E87D0 /* File */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		03A3BAC725399BF3000E87D0 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		03A3BAC825399BF3000E87D0 /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+		03A3BAC925399BF3000E87D0 /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BACA25399BF3000E87D0 /* Configuration */,
+				03A3BACB25399BF3000E87D0 /* Category */,
+				03A3BACC25399BF3000E87D0 /* Util */,
+				03A3BACD25399BF3000E87D0 /* Other */,
+				03A3BACE25399BF3000E87D0 /* Library */,
+				03A3BACF25399BF3000E87D0 /* Controller */,
+				03A3BAD025399BF3000E87D0 /* Model */,
+				03A3BAD325399BF3000E87D0 /* View */,
+				03A3BAD425399BF3000E87D0 /* Resource */,
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
+		03A3BACA25399BF3000E87D0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		03A3BACB25399BF3000E87D0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		03A3BACC25399BF3000E87D0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		03A3BACD25399BF3000E87D0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		03A3BACE25399BF3000E87D0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		03A3BACF25399BF3000E87D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03A3BAD025399BF3000E87D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BAD125399BF3000E87D0 /* ViewModel */,
+				03A3BAD225399BF3000E87D0 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03A3BAD125399BF3000E87D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		03A3BAD225399BF3000E87D0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		03A3BAD325399BF3000E87D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03A3BAD425399BF3000E87D0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BAD525399BF3000E87D0 /* Plist */,
+				03A3BAD625399BF3000E87D0 /* Video */,
+				03A3BAD725399BF3000E87D0 /* File */,
+				03A3BAD825399BF3000E87D0 /* Image */,
+				03A3BAD925399BF3000E87D0 /* Voice */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		03A3BAD525399BF3000E87D0 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		03A3BAD625399BF3000E87D0 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		03A3BAD725399BF3000E87D0 /* File */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		03A3BAD825399BF3000E87D0 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		03A3BAD925399BF3000E87D0 /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+		03A3BADA25399BF3000E87D0 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BADB25399BF3000E87D0 /* Configuration */,
+				03A3BADC25399BF3000E87D0 /* Category */,
+				03A3BADD25399BF3000E87D0 /* Util */,
+				03A3BADE25399BF3000E87D0 /* Other */,
+				03A3BADF25399BF3000E87D0 /* Library */,
+				03A3BAE025399BF3000E87D0 /* Controller */,
+				03A3BAE125399BF3000E87D0 /* Model */,
+				03A3BAE425399BF3000E87D0 /* View */,
+				03A3BAE525399BF3000E87D0 /* Resource */,
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		03A3BADB25399BF3000E87D0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		03A3BADC25399BF3000E87D0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		03A3BADD25399BF3000E87D0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		03A3BADE25399BF3000E87D0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		03A3BADF25399BF3000E87D0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		03A3BAE025399BF3000E87D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03A3BAE125399BF3000E87D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BAE225399BF3000E87D0 /* ViewModel */,
+				03A3BAE325399BF3000E87D0 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03A3BAE225399BF3000E87D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		03A3BAE325399BF3000E87D0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		03A3BAE425399BF3000E87D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03A3BAE525399BF3000E87D0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BAE625399BF3000E87D0 /* Plist */,
+				03A3BAE725399BF3000E87D0 /* Video */,
+				03A3BAE825399BF3000E87D0 /* File */,
+				03A3BAE925399BF3000E87D0 /* Image */,
+				03A3BAEA25399BF3000E87D0 /* Voice */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		03A3BAE625399BF3000E87D0 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		03A3BAE725399BF3000E87D0 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		03A3BAE825399BF3000E87D0 /* File */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		03A3BAE925399BF3000E87D0 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		03A3BAEA25399BF3000E87D0 /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+		03A3BAEB25399BF3000E87D0 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BAEC25399BF3000E87D0 /* Configuration */,
+				03A3BAED25399BF3000E87D0 /* Category */,
+				03A3BAEE25399BF3000E87D0 /* Util */,
+				03A3BAEF25399BF3000E87D0 /* Other */,
+				03A3BAF025399BF3000E87D0 /* Library */,
+				03A3BAF125399BF3000E87D0 /* Controller */,
+				03A3BAF225399BF3000E87D0 /* Model */,
+				03A3BAF525399BF3000E87D0 /* View */,
+				03A3BAF625399BF3000E87D0 /* Resource */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		03A3BAEC25399BF3000E87D0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		03A3BAED25399BF3000E87D0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		03A3BAEE25399BF3000E87D0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		03A3BAEF25399BF3000E87D0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		03A3BAF025399BF3000E87D0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		03A3BAF125399BF3000E87D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03A3BAF225399BF3000E87D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BAF325399BF3000E87D0 /* ViewModel */,
+				03A3BAF425399BF3000E87D0 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03A3BAF325399BF3000E87D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		03A3BAF425399BF3000E87D0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		03A3BAF525399BF3000E87D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03A3BAF625399BF3000E87D0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				03A3BAF725399BF3000E87D0 /* Plist */,
+				03A3BAF825399BF3000E87D0 /* Video */,
+				03A3BAF925399BF3000E87D0 /* File */,
+				03A3BAFA25399BF3000E87D0 /* Image */,
+				03A3BAFB25399BF3000E87D0 /* Voice */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		03A3BAF725399BF3000E87D0 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		03A3BAF825399BF3000E87D0 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		03A3BAF925399BF3000E87D0 /* File */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		03A3BAFA25399BF3000E87D0 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		03A3BAFB25399BF3000E87D0 /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
 		03BD4A5624E620F000D375F1 = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +623,7 @@
 		03BD4A6124E620F000D375F1 /* ZXSSwiftAPP */ = {
 			isa = PBXGroup;
 			children = (
-				03BD4A7624E627C200D375F1 /* Main */,
+				03A3BAB425399BF3000E87D0 /* Class */,
 				03BD4A6224E620F100D375F1 /* AppDelegate.swift */,
 				03BD4A6424E620F100D375F1 /* SceneDelegate.swift */,
 				03BD4A6624E620F100D375F1 /* ViewController.swift */,
@@ -79,144 +633,6 @@
 				03BD4A7024E6210800D375F1 /* Info.plist */,
 			);
 			path = ZXSSwiftAPP;
-			sourceTree = "<group>";
-		};
-		03BD4A7624E627C200D375F1 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				03BD4A7724E627C200D375F1 /* Configuration */,
-				03BD4A7824E627C200D375F1 /* Category */,
-				03BD4A7924E627C200D375F1 /* Util */,
-				03BD4A7A24E627C200D375F1 /* Other */,
-				03BD4A7B24E627C200D375F1 /* Library */,
-				03BD4A7C24E627C200D375F1 /* Controller */,
-				03BD4A7D24E627C200D375F1 /* Model */,
-				03BD4A8024E627C200D375F1 /* View */,
-				03BD4A8124E627C200D375F1 /* Resource */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		03BD4A7724E627C200D375F1 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				03BD4A8724E627EC00D375F1 /* Const.swift */,
-			);
-			path = Configuration;
-			sourceTree = "<group>";
-		};
-		03BD4A7824E627C200D375F1 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		03BD4A7924E627C200D375F1 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				03BD4A8B24E6755400D375F1 /* HttpManager.swift */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		03BD4A7A24E627C200D375F1 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		03BD4A7B24E627C200D375F1 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
-		03BD4A7C24E627C200D375F1 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				03BD4A8D24E683DA00D375F1 /* ZXSTabBarController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		03BD4A7D24E627C200D375F1 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				03BD4A7E24E627C200D375F1 /* ViewModel */,
-				03BD4A7F24E627C200D375F1 /* DataModel */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		03BD4A7E24E627C200D375F1 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		03BD4A7F24E627C200D375F1 /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataModel;
-			sourceTree = "<group>";
-		};
-		03BD4A8024E627C200D375F1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		03BD4A8124E627C200D375F1 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				03BD4A8224E627C200D375F1 /* Plist */,
-				03BD4A8324E627C200D375F1 /* Video */,
-				03BD4A8424E627C200D375F1 /* File */,
-				03BD4A8524E627C200D375F1 /* Image */,
-				03BD4A8624E627C200D375F1 /* Voice */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		03BD4A8224E627C200D375F1 /* Plist */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Plist;
-			sourceTree = "<group>";
-		};
-		03BD4A8324E627C200D375F1 /* Video */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Video;
-			sourceTree = "<group>";
-		};
-		03BD4A8424E627C200D375F1 /* File */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = File;
-			sourceTree = "<group>";
-		};
-		03BD4A8524E627C200D375F1 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
-		03BD4A8624E627C200D375F1 /* Voice */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Voice;
 			sourceTree = "<group>";
 		};
 		65C1D38B51AE4F83FCEF66B5 /* Pods */ = {
@@ -352,9 +768,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				03BD4A6724E620F100D375F1 /* ViewController.swift in Sources */,
-				03BD4A8C24E6755400D375F1 /* HttpManager.swift in Sources */,
-				03BD4A8824E627EC00D375F1 /* Const.swift in Sources */,
-				03BD4A8E24E683DA00D375F1 /* ZXSTabBarController.swift in Sources */,
+				03A3BAFD25399BF3000E87D0 /* HttpManager.swift in Sources */,
+				03A3BAFC25399BF3000E87D0 /* Const.swift in Sources */,
+				03A3BAFE25399BF3000E87D0 /* ZXSTabBarController.swift in Sources */,
 				03BD4A6324E620F100D375F1 /* AppDelegate.swift in Sources */,
 				03BD4A6524E620F100D375F1 /* SceneDelegate.swift in Sources */,
 			);
