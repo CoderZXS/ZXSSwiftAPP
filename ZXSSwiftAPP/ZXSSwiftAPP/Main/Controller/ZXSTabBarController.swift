@@ -23,7 +23,7 @@ class ZXSTabBarController: UITabBarController {
         //获取点击下标与当前下标比较，相同不处理，不同进行动画
         if let index = tabBar.items?.firstIndex(of: item) {
             if index != currentSelectedItemIndex {
-                animationTabbarIntemForIndex(index: index)
+                animationTabbarItemForIndex(index: index)
             }
         }
     }
@@ -52,7 +52,7 @@ extension ZXSTabBarController {
     }
     
     // 实现缩放动画
-    private func animationTabbarIntemForIndex(index:Int) {
+    private func animationTabbarItemForIndex(index:Int) {
         var tabBarButtons = [UIView]()
         //遍历tabbar子视图拿到可点击的item加入数组
         for tabBarButton in tabBar.subviews {
@@ -61,6 +61,13 @@ extension ZXSTabBarController {
             }
         }
         
+        let pulse = tabbarItemAnimation()
+        tabBarButtons[index].layer.add(pulse, forKey:nil)
+        
+        currentSelectedItemIndex = index
+    }
+    
+    func tabbarItemAnimation() -> CABasicAnimation {
         //动画实现部分
         let pulse = CABasicAnimation(keyPath: "transform.scale")
         //动画函数
@@ -73,8 +80,6 @@ extension ZXSTabBarController {
         pulse.fromValue = NSNumber(value: 0.7)
         //动画放大的值
         pulse.toValue = NSNumber(value: 1.2)
-        tabBarButtons[index].layer.add(pulse, forKey:nil)
-        
-        currentSelectedItemIndex = index
+        return pulse;
     }
 }

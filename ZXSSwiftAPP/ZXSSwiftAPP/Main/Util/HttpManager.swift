@@ -25,7 +25,7 @@ class HttpManager: NSObject {
 }
 
 extension HttpManager {
-    func requestNetworkData(type : HTTPMethodType, URLString : String, paramater : [String : Any]?, completion : @escaping(_ response : Any) -> ()) {
+    func requestNetworkData(type : HTTPMethodType, URLString : String, paramater : [String : Any]?, completionHandler : @escaping(_ response : Any) -> ()) {
         //获取请求类型
         //let method = type == .get ? HTTPMethodType.get : HTTPMethodType.post;
         
@@ -56,7 +56,7 @@ extension HttpManager {
             
             //成功就把请求的数据回调回去
             if let value = responseJson.result.value {
-                completion(value);
+                completionHandler(value);
             }
             
         }

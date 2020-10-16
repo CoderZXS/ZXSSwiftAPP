@@ -14,21 +14,19 @@ let kScreenH = UIScreen.main.bounds.height;
 let kKeyWindow = UIApplication.shared.keyWindow;
 
 //是否iPhoene
-let kIsiPhone = Bool(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.phone)
+let kIsIphone = Bool(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.phone)
 
 //是否iPhoneX
-let kIsiPhoneX = Bool(kScreenW >= 375.0 && kScreenH >= 812.0 && kIsiPhone)
+let kIsIphoneX = Bool(kScreenW >= 375.0 && kScreenH >= 812.0 && kIsIphone)
 
 //导航栏高度
-let kNavigationBarH = CGFloat(kIsiPhoneX ? 88 : 64)
+let kNavigationBarH = CGFloat(kIsIphoneX ? 88 : 64)
 
 //状态栏
-let kStatusBarH = CGFloat(kIsiPhoneX ? 44 : 20)
+let kStatusBarH = CGFloat(kIsIphoneX ? 44 : 20)
 
 //tabbar
-let kTabBarH = CGFloat(kIsiPhoneX ? 83 : 49)
-
-
+let kTabBarH = CGFloat(kIsIphoneX ? 83 : 49)
 
 //自定义颜色
 func RGBColor(red:CGFloat, green:CGFloat, blue:CGFloat) -> UIColor {
@@ -76,9 +74,3 @@ func CustomLayerCoreRadius(num : CGFloat) -> CGFloat {
     //其他
     return num * 1.2
 }
-
-
-
-
-
-
