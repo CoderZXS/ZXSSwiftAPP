@@ -10,6 +10,8 @@ import UIKit
 
 let kScreenW = UIScreen.main.bounds.width;
 let kScreenH = UIScreen.main.bounds.height;
+/// emoji 宽度
+let kEmojiItemW = kScreenW / 7.0
 
 let kKeyWindow = UIApplication.shared.keyWindow;
 

@@ -58,7 +58,6 @@ extension HttpManager {
             if let value = responseJson.result.value {
                 completionHandler(value);
             }
-            
         }
     }
 }

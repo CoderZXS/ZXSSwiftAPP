@@ -6,7 +6,7 @@ use_frameworks!
 target 'ZXSSwiftAPP' do
   pod 'Alamofire' #网络请求
   pod 'SwiftyJSON' #json解析
-  pod 'HandyJSON' #json解析
+  pod 'HandyJSON' #JSON序列化/反序列化库
   pod 'Kingfisher' #下载图片
   pod 'IBAnimatable' #xib属性
   pod 'SwiftTheme' #主题
